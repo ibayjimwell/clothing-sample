@@ -1,0 +1,68 @@
+import type { Product } from "./types"
+
+export const initialProducts: Product[] = [
+  {
+    id: "1",
+    name: "Classic Black Tee",
+    price: 49.99,
+    description: "Premium cotton t-shirt with a relaxed fit. Perfect for everyday wear.",
+    images: ["/black-cotton-t-shirt-minimalist.jpg", "/black-t-shirt-back.png"],
+    category: "T-Shirts",
+  },
+  {
+    id: "2",
+    name: "Oversized Hoodie",
+    price: 89.99,
+    description: "Cozy oversized hoodie made from organic cotton blend.",
+    images: ["/oversized-gray-hoodie-streetwear.jpg", "/gray-hoodie-side-view.jpg"],
+    category: "Hoodies",
+  },
+  {
+    id: "3",
+    name: "Slim Fit Jeans",
+    price: 79.99,
+    description: "Classic slim fit jeans in deep indigo wash.",
+    images: ["/slim-fit-dark-blue-jeans.jpg", "/jeans-detail-stitching.jpg"],
+    category: "Pants",
+  },
+  {
+    id: "4",
+    name: "Linen Summer Shirt",
+    price: 69.99,
+    description: "Breathable linen shirt perfect for warm weather.",
+    images: ["/white-linen-shirt-casual.jpg", "/linen-shirt-collar-detail.jpg"],
+    category: "Shirts",
+  },
+  {
+    id: "5",
+    name: "Wool Blend Coat",
+    price: 199.99,
+    description: "Elegant wool blend coat for the colder seasons.",
+    images: ["/black-wool-coat-minimalist.jpg", "/wool-coat-back-view.jpg"],
+    category: "Outerwear",
+  },
+  {
+    id: "6",
+    name: "Cotton Cargo Pants",
+    price: 89.99,
+    description: "Modern cargo pants with a tapered fit.",
+    images: ["/beige-cargo-pants-modern.jpg", "/cargo-pants-pocket-detail.jpg"],
+    category: "Pants",
+  },
+  {
+    id: "7",
+    name: "Graphic Print Tee",
+    price: 54.99,
+    description: "Limited edition graphic tee with artistic print.",
+    images: ["/graphic-print-t-shirt-artistic.jpg", "/graphic-tee-back-design.jpg"],
+    category: "T-Shirts",
+  },
+  {
+    id: "8",
+    name: "Knit Sweater",
+    price: 109.99,
+    description: "Soft knit sweater in a timeless design.",
+    images: ["/cream-knit-sweater-cozy.jpg", "/knit-sweater-texture-detail.jpg"],
+    category: "Sweaters",
+  },
+]
