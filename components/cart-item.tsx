@@ -25,7 +25,7 @@ export function CartItem({ item }: CartItemProps) {
         <div className="flex justify-between">
           <div>
             <h3 className="font-medium">{product.name}</h3>
-            <p className="text-sm text-muted-foreground">${product.price.toFixed(2)}</p>
+            <p className="text-sm text-muted-foreground">₱{product.price.toFixed(2)}</p>
           </div>
           <Button variant="ghost" size="icon" className="h-8 w-8" onClick={() => removeFromCart(product.id)}>
             <X className="h-4 w-4" />
@@ -55,7 +55,7 @@ export function CartItem({ item }: CartItemProps) {
               <span className="sr-only">Increase quantity</span>
             </Button>
           </div>
-          <p className="font-medium">${subtotal.toFixed(2)}</p>
+          <p className="font-medium">₱{subtotal.toFixed(2)}</p>
         </div>
       </div>
     </div>

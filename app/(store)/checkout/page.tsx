@@ -215,7 +215,7 @@ export default function CheckoutPage() {
                         <h4 className="font-medium">{item.product.name}</h4>
                         <p className="text-sm text-muted-foreground">Qty: {item.quantity}</p>
                       </div>
-                      <p className="font-medium">${(item.product.price * item.quantity).toFixed(2)}</p>
+                      <p className="font-medium">₱{(item.product.price * item.quantity).toFixed(2)}</p>
                     </div>
                   ))}
                 </div>
@@ -225,7 +225,7 @@ export default function CheckoutPage() {
                 <div className="space-y-2">
                   <div className="flex justify-between text-sm">
                     <span className="text-muted-foreground">Subtotal</span>
-                    <span>${cartTotal.toFixed(2)}</span>
+                    <span>₱{cartTotal.toFixed(2)}</span>
                   </div>
                   <div className="flex justify-between text-sm">
                     <span className="text-muted-foreground">Shipping</span>
@@ -237,7 +237,7 @@ export default function CheckoutPage() {
 
                 <div className="flex justify-between text-lg font-bold">
                   <span>Total</span>
-                  <span>${cartTotal.toFixed(2)}</span>
+                  <span>₱{cartTotal.toFixed(2)}</span>
                 </div>
               </CardContent>
             </Card>

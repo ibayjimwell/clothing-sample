@@ -33,7 +33,7 @@ export function ProductCard({ product }: ProductCardProps) {
         </div>
         <div className="mt-4 space-y-2">
           <h3 className="font-medium text-foreground">{product.name}</h3>
-          <p className="text-muted-foreground">${product.price.toFixed(2)}</p>
+          <p className="text-muted-foreground">₱{product.price.toFixed(2)}</p>
           <div className="flex gap-2 pt-2">
             <Button variant="outline" size="sm" className="flex-1 bg-transparent" onClick={() => addToCart(product, 1)}>
               Add to Cart
