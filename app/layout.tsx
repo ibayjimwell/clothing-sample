@@ -11,7 +11,6 @@ const _playfair = Playfair_Display({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "NOIR - Modern Clothing Brand",
   description: "Discover timeless elegance with NOIR - Premium clothing for the modern individual",
-    generator: 'v0.app'
 }
 
 export default function RootLayout({
